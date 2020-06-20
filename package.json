@@ -1,0 +1,17 @@
+{
+  "name": "arca sms",
+  "version": "1.0.0",
+  "description": "arca sms server",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodenv .",
+    "test": "nodenv -E test/.env test/test.js"
+  },
+  "author": "puppycodes",
+  "license": "",
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-env-run": "^2.0.1",
+    "twilio": "^3.43.1"
+  }
+}
